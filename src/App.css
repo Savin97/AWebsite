@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+#navbar-content{
+    margin-left: auto;
+}
+.nav-item{
+    margin-right: 40px;
+}
+#hero-container{
+    background-image: url('./images/prism.jpg');
+    background-position: center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    height: 90vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#hero-container-div1{
+    backdrop-filter: blur(6px) saturate(102%);
+    -webkit-backdrop-filter: blur(6px) saturate(102%);
+    background-color: rgba(255, 255, 255, 0.45);
+    border-radius: 12px;
+    border: 1px solid rgba(209, 213, 219, 0.3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navbar-brand{
+    margin-left: 15px;
+}
+
+.navbar-toggler{
+    margin-right: 15px;
+}
+
+footer{
+    background-color: #161616;
+    color: #aaaaaa;
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

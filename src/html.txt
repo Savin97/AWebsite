@@ -1,0 +1,131 @@
+<div class="container-fluid">
+       {/* navbar */}
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <img class="img-fluid navbar-brand" style={{maxHeight: 150 + "px"}} src={logo} />
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav fs-4 " id="navbar-content">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Suppliers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seminars</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              
+              {/* <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Dropdown
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <a class="dropdown-item" href="#">Another action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li> */}
+              
+            </ul>
+            
+          </div>
+        </nav>
+        
+        {/* Main container */}
+        <div class="container">
+          <h1 class="text-center p-5 mb-5 bg-dark-subtle"> Main headline </h1>
+          <div class="w-100 text-break">
+            <p >loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+            loremloremloremloremloremloremloremloremloremloremloremlorem
+            loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+            loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+            loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+            loremloremloremloremloremloremloremloremloremloremloremloremloremloremloremlorem
+            </p>
+            
+          </div>
+        <div class="row">
+          <div class="col">
+            <div class="card mb-5 mr-3 border-2 border-primary" style={{width: 18 + 'rem' }}>
+              <img class="card-img-top" src="../logo192.png" alt="Card image cap"/>
+              <div class="card-body">
+                <h5 class="card-title">Card title1</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content
+                Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col">
+
+              <div class="card mb-5 mr-3 border-2 border-primary" style={{width: 18 + 'rem' }}>
+                <img class="card-img-top" src="../logo192.png" alt="Card image cap"/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title2</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content
+                  Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <div class="card mb-5 mr-3 border-2 border-primary" style={{width: 18 + 'rem' }}>
+              <img class="card-img-top" src="../logo192.png" alt="Card image cap"/>
+              <div class="card-body">
+                <h5 class="card-title">Card title3</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content
+                Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col">
+
+              <div class="card mb-5 mr-3 border-2 border-primary" style={{width: 18 + 'rem' }}>
+                <img class="card-img-top" src="../logo192.png" alt="Card image cap"/>
+                <div class="card-body">
+                  <h5 class="card-title">Card title4</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content
+                  Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+        <div class="w-100 text-break">
+          <button type='button' class="btn mb-5 btn-primary btn-lg"><a href="mailto:savin992@gmail.com" class="text-decoration-none text-white">Contact us</a></button> 
+
+
+        </div>
+
+
+      </div>
+
+      
+      
+      {/* <header class="row justify-content-space-between">
+        <div class="justify-content-start col-sm col-lg-2">
+          Logo
+        </div>
+
+        <div class="border border-secondary justify-content-end col-sm col-lg-4">
+          links
+        </div>
+      </header> */}
+    </div>
